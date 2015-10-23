@@ -8,21 +8,14 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
-
 /**
- * Basic styling
+ * Body
  */
-body {
-    font-family: $base-font-family;
-    font-size: $base-font-size;
-    line-height: $base-line-height;
-    font-weight: 300;
-    color: $text-color;
-    background-color: $background-color;
-    -webkit-text-size-adjust: 100%;
-}
 
+body {
+   font-family: $main-font;
+   font-weight: 300;
+}
 
 
 /**
@@ -54,11 +47,6 @@ figure > img {
     display: block;
 }
 
-figcaption {
-    font-size: $small-font-size;
-}
-
-
 
 /**
  * Lists
@@ -89,15 +77,14 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $primary-color;
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: darken($primary-color, 15%);
     }
 
     &:hover {
-        color: $text-color;
         text-decoration: underline;
     }
 }
