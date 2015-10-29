@@ -6,7 +6,7 @@ layout: default
   {% for post in site.posts %}
     <div class="mdl-cell mdl-cell--6-col post-block">
       <a href="{{ post.url | prepend: site.baseurl }}">
-        <div class="demo-card-wide mdl-shadow--2dp">
+        <div class="post-card mdl-shadow--2dp">
           <img src="./assets/images/{{ post.image }}"/>
           <div class="mdl-card__title">
             <h2 class="mdl-card__title-text">{{ post.title }}</h2>
