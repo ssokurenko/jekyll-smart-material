@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<div class="home">
-  <div class="mdl-grid">
-    {% for post in site.posts %}
-      <div class="mdl-cell mdl-cell--4-col">
+<div class="mdl-grid">
+  {% for post in site.posts %}
+    <div class="mdl-cell mdl-cell--6-col post-block">
+      <a href="{{ post.url | prepend: site.baseurl }}">
         <div class="demo-card-wide mdl-shadow--2dp">
           <img src="./assets/images/{{ post.image }}"/>
           <div class="mdl-card__title">
@@ -16,7 +16,7 @@ layout: default
             {{ post.description }}
           </div>
         </div>
-    </div>
-    {% endfor %}
+      </a>
   </div>
+  {% endfor %}
 </div>
