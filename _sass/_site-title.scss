@@ -1,0 +1,9 @@
+.site-title {
+  color: $site-title-color;
+  text-decoration: none;
+  transition: color .3s ease-out;
+
+  &:hover {
+    color: #fff;
+  }
+}

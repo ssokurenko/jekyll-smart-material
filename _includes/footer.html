@@ -1,15 +1,15 @@
 <footer class="wrapper">
-  <div class="mdl-grid">
-    <div class="mdl-cell mdl-cell--6-col">
-      <p>{{ site.description }}</p>
+    <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--6-col">
+            <p>{{ site.description }}</p>
+        </div>
+        <div class="mdl-cell mdl-cell--6-col">
+            <h6>Contacts</h6>
+            <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+            <p><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
+        </div>
+        <div class="mdl-cell mdl-cell--12-col">
+            <p>{{ site.copyright }}</p>
+        </div>
     </div>
-    <div class="mdl-cell mdl-cell--6-col">
-      <h6>Contacts</h6>
-      <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-      <p><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
-    </div>
-    <div class="mdl-cell mdl-cell--12-col">
-      <p>{{ site.copyright }}</p>
-    </div>
-  </div>
 </footer>

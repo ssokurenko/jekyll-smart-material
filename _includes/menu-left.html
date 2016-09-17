@@ -1,10 +1,11 @@
 <div class="mdl-layout__drawer">
-  <span class="mdl-layout-title">Left Menu</span>
-  <nav class="mdl-navigation">
-    {% for page in site.pages %}
+    <span class="mdl-layout-title">Left Menu</span>
+    <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="{{ site.baseurl }}/">Home</a>
+        {% for page in site.pages %}
         {% if page.title %}
         <a class="mdl-navigation__link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
         {% endif %}
-      {% endfor %}
-  </nav>
+        {% endfor %}
+    </nav>
 </div>

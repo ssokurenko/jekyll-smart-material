@@ -4,7 +4,7 @@ layout: default
 
 <div class="mdl-grid">
   {% for post in site.posts %}
-    <div class="mdl-cell mdl-cell--6-col post-block">
+    <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-phone post-block">
       <a href="{{ post.url | prepend: site.baseurl }}">
         <div class="post-card mdl-shadow--2dp">
           <img src="./assets/images/{{ post.image }}"/>
