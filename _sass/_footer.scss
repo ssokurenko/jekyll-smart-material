@@ -1,0 +1,15 @@
+footer {
+  .mdl-mini-footer__link-list {
+    & a {
+      cursor: pointer;
+      transition: color .2s ease-in;
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  .copyright {
+    margin-top: $spacing-unit;
+  }
+}

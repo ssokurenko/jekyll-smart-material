@@ -1,15 +1,22 @@
-<footer class="wrapper">
-    <div class="mdl-grid">
-        <div class="mdl-cell mdl-cell--6-col">
-            <p>{{ site.description }}</p>
-        </div>
-        <div class="mdl-cell mdl-cell--6-col">
-            <h6>Contacts</h6>
-            <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-            <p><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
-        </div>
-        <div class="mdl-cell mdl-cell--12-col">
-            <p>{{ site.copyright }}</p>
+<footer class="mdl-mini-footer">
+    <div class="mdl-mini-footer__left-section">
+        <p>
+            {{ site.description }}
+        </p>
+        <ul class="mdl-mini-footer__link-list">
+            <li>
+                <a href="{{ site.baseurl }}/">Home</a>
+            </li>
+            {% for page in site.pages %}
+            {% if page.title %}
+            <li>
+                <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+        <div class="copyright">
+            {{ site.copyright }}
         </div>
     </div>
 </footer>
