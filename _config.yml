@@ -5,11 +5,13 @@ description: Slick Material Design theme for Jekyll powered by Material Design L
 baseurl: "/jekyll-smart-material" # the subpath of your site, e.g. /blog/
 url: "http://ssokurenko.github.io" # the base hostname & protocol for your site
 copyright: '&copy; 2015-2016 Smart Material Theme'
-twitter_username: jekyllrb
-github_username:  jekyll
 
 # Build settings
 markdown: kramdown
 
 # Custom theme could be generated at: https://getmdl.io/customize/index.html
 material_theme: blue-deep_orange
+
+# Google Analytics account ID (UA-XXXXXXXX-X)
+
+google-analytics-ua: UA-84475574-1

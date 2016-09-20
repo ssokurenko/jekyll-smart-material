@@ -4,7 +4,7 @@ Slick Material Design theme for [Jekyll](https://jekyllrb.com/) powered by [Mate
 
 ## Live demo
 
-(http://ssokurenko.github.io/jekyll-smart-material)[http://ssokurenko.github.io/jekyll-smart-material/]
+[https://ssokurenko.github.io/jekyll-smart-material](https://ssokurenko.github.io/jekyll-smart-material/)
 
 ## Local deployment for development and testing
 
