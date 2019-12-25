@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/924a0bb5-dc0d-4068-b935-7fdfd31e5817/deploy-status)](https://app.netlify.com/sites/brainstem-taplist/deploys)
+
 # Jekyll Smart Material
 
 Slick Material Design theme for [Jekyll](https://jekyllrb.com/) powered by [Material Design Lite v.1.2.1](https://getmdl.io/components/index.html).
