@@ -2,8 +2,8 @@
 title: Smart Material Theme
 email: your-email@domain.com
 description: Slick Material Design theme for Jekyll powered by Material Design Lite.
-baseurl: "/jekyll-smart-material" # the subpath of your site, e.g. /blog/
-url: "http://ssokurenko.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
 copyright: '&copy; 2015-2016 Smart Material Theme'
 
 # Build settings
