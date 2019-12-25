@@ -1,10 +1,10 @@
 # Site settings
-title: Brainstem Brewing Taplist
+title: Brainstem Brewing
 email: your-email@domain.com
-description: Slick Material Design theme for Jekyll powered by Material Design Lite.
+description: Basement based homebrewing in West Philly
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
-copyright: '&copy; 2015-2016 Smart Material Theme'
+copyright: '&copy; 2020 Chris Friedman'
 
 # Build settings
 markdown: kramdown
