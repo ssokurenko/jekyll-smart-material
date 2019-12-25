@@ -5,6 +5,7 @@ description: Basement based homebrewing in West Philly
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 copyright: '&copy; 2020 Chris Friedman'
+github: "https://github.com/chris-s-friedman/brainstem-taplist-site"
 
 # Build settings
 markdown: kramdown
