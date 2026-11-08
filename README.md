@@ -1,6 +1,6 @@
 # Jekyll Smart Material
 
-Slick Material Design theme for [Jekyll](https://jekyllrb.com/) powered by [Material Design Lite v.1.2.1](https://getmdl.io/components/index.html).
+Slick Material Design theme for [Jekyll](https://jekyllrb.com/) powered by [Material Design Lite v.1.3.0](https://getmdl.io/components/index.html).
 
 ## Live demo
 
